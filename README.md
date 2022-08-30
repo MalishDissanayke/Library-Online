@@ -1,6 +1,8 @@
 1)composer install
 
-2)config DB
+2) cp -r .env.example .env
+
+3)config DB
 
     DB_CONNECTION=mysql
 
@@ -14,7 +16,7 @@
 
     DB_PASSWORD=
     
-3)  php artisan key:generate
-4)  php artisan migrate
-5)  php artisan serve
-6)  http://127.0.0.1:8000
+4)  php artisan key:generate
+5)  php artisan migrate
+6)  php artisan serve
+7)  http://127.0.0.1:8000
