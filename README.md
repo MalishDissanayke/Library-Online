@@ -1,6 +1,6 @@
 1)composer install
 
-2) cp -r .env.example .env
+2)cp -r .env.example .env
 
 3)config DB
 
